@@ -6,7 +6,7 @@ function isPalindrome(text: string): boolean {
     console.log(text.charAt(i).toLowerCase(), 
       '\t', text.charAt(text.length - i - 1).toLowerCase());
       //TODO: Implementar lógica de comparación de caracteres
-      if (text.charAt(i) != text.charAt(text.length - i - 1))
+      if (text.charAt(i) != text.charAt(text.length - 1 - i))
       {
         bPalindrome = false;
         return bPalindrome;
